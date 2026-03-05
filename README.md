@@ -2,7 +2,7 @@
 1. Introducción
 
 La respuesta galvánica cutánea (GSR) es una señal fisiológica que mide los cambios en la conductancia eléctrica de la piel. Estos cambios están relacionados con la actividad del sistema nervioso simpático, el cual se activa en situaciones de estrés, concentración o emoción.
-
+ 
 Cuando una persona experimenta estrés o realiza una tarea que requiere esfuerzo mental, aumenta la actividad de las glándulas sudoríparas. Esto provoca que la piel conduzca mejor la electricidad, lo que se refleja en un aumento de la señal GSR.
 
 En esta práctica se diseñó e implementó un dispositivo vestible para medir la GSR en tiempo real y estimar el nivel de estrés durante la realización de tareas cognitivas.
