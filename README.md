@@ -46,8 +46,7 @@ Se confirmó que la GSR es un indicador indirecto de la activación del sistema 
 - Seguridad eléctrica
 
 Para garantizar la seguridad del sujeto, se limitó la corriente a menos de 1 mA.
-
-Se utilizó una fuente de 5 V y una resistencia de 68 kΩ.
+Se alimentó al circuito desde la misma ESP32 (3.3V), una batería portátil para la parte B y C (Inalámbrica) y una resistencia de 68 kΩ.
 
 Aplicando la Ley de Ohm:
 
@@ -59,26 +58,13 @@ Este valor es mucho menor a 1 mA, por lo que el sistema es seguro.
 
 -  Diseño del dispositivo
 
-El sistema estuvo compuesto por:
-
-Dos laminas de aluminio
-
-Una resistencia de 68 kΩ.
-
-Un condensador de 1 µF.
-
-ESP para leer la señal.
-
-Computador.
-
+El sistema estuvo compuesto por: Dos laminas de aluminio, una resistencia de 68 kΩ, un condensador de 1 µF, ESP para leer la señal, Computador.
 Los electrodos se colocaron en los dedos porque allí hay mayor cantidad de glándulas sudoríparas, lo que mejora la medición.
 
 <img width="1150" height="677" alt="image" src="https://github.com/user-attachments/assets/672b7770-1bad-4fec-a070-8e0260bcdbd5" />
 
 
 3.2 Parte B 
-
-
 
 -  Medición en tiempo real
 
@@ -99,6 +85,7 @@ Con los valores máximos y mínimos se definieron tres niveles: Estrés bajo, es
 Se utilizo el wifi para enviar los datos de forma inalámbrica.
 En esta etapa, el sistema mostraba la señal completa y un mensaje indicando el nivel de estrés según los umbrales definidos.
 
+<img width="1600" height="809" alt="image" src="https://github.com/user-attachments/assets/5b654273-1792-428b-b0c9-917cd00e0b7c" />
 
 3.3 Parte C 
 
@@ -115,21 +102,9 @@ Esto demuestra que la carga mental influye en la activación del sistema nervios
    
 -  Respiración en reposo vs tarea cognitiva
 
-En reposo:
+En reposo: Señal estable, pocas variaciones, nivel basal constante.
 
-Señal estable.
-
-Pocas variaciones.
-
-Nivel basal constante.
-
-Durante la tarea:
-
-Mayor variación en la señal.
-
-Más respuestas rápidas.
-
-Incremento del nivel promedio.
+Durante la tarea (Respiraciones profundas): Mayor variación en la señal, más respuestas rápidas, incremento del nivel promedio.
 
 Esto confirma que la concentración y el esfuerzo mental aumentan la activación simpática.
 
@@ -163,5 +138,5 @@ Varía entre personas.
 
 En esta práctica se logró diseñar e implementar un sistema vestible para medir la respuesta galvánica cutánea y estimar el nivel de estrés. Se comprobó que tanto la respiración profunda como las tareas cognitivas generan aumentos en la señal, lo que confirma la relación entre GSR y activación simpática.
 
-Aunque la GSR es una herramienta útil para monitoreo continuo, no debe considerarse un indicador absoluto de estrés, ya que puede verse influenciada por diferentes factores externos.
+Aunque la GSR es una herramienta útil para monitoreo continuo, no debe considerarse un indicador absoluto de estrés, ya que puede verse influenciada por diferentes factores externos, esta se puede ver afectada ya que para cada persona la actividad de las glándulas sudoríparas es diferente, para el caso de esta práctica la prueba con el primer paciente dio valores más elevados para los umbrales de estrés, por lo que al realizazr la prueba con el profesor esta no llegaba a medir valores de estrés, por lo que se concluyó que para los umbrales de estrés es una mejor opción usar valores normalizados para que estos se adapten a cada paciente.
 
