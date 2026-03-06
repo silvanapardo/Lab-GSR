@@ -73,6 +73,9 @@ Computador.
 
 Los electrodos se colocaron en los dedos porque allí hay mayor cantidad de glándulas sudoríparas, lo que mejora la medición.
 
+<img width="1150" height="677" alt="image" src="https://github.com/user-attachments/assets/672b7770-1bad-4fec-a070-8e0260bcdbd5" />
+
+
 3.2 Parte B 
 
 
@@ -80,48 +83,32 @@ Los electrodos se colocaron en los dedos porque allí hay mayor cantidad de glá
 -  Medición en tiempo real
 
 Se armó el circuito en protoboard y se visualizó la señal usando el Serial Plotter.
-
 Se probó el sistema en diferentes situaciones: En reposo, caminando y escribiendo
-
 Se observó que el movimiento genera ruido en la señal.
 
 - Prueba de respiración profunda
 
 El sujeto realizó una inspiración profunda y luego exhaló lentamente.
 
-Donde se observó:
+Donde se observó: Un aumento rápido en la señal, un regreso lento al valor inicial.
 
-Un aumento rápido en la señal.
-
-Un regreso lento al valor inicial.
-
-Con los valores máximos y mínimos se definieron tres niveles:
-
-Bajo estrés
-
-Estrés moderado
-
-Alto estrés
+Con los valores máximos y mínimos se definieron tres niveles: Estrés bajo, estrés moderado, estrés alto
 
 - Transmisión inalámbrica
 
 Se utilizo el wifi para enviar los datos de forma inalámbrica.
+En esta etapa, el sistema mostraba la señal completa y un mensaje indicando el nivel de estrés según los umbrales definidos.
 
-En esta etapa, el sistema ya no mostraba la señal completa, sino un mensaje indicando el nivel de estrés según los umbrales definidos.
 
 3.3 Parte C 
 
 Se pidió al sujeto que resolviera un pequeño examen mientras usaba el dispositivo.
 
-Durante la prueba se observó:
-
-Aumento del nivel basal.
-
-Más respuestas rápidas en la señal.
-
-Clasificación frecuente en estrés moderado y alto.
+Durante la prueba se observó: Aumento del nivel basal, más respuestas rápidas en la señal, clasificación frecuente en estrés moderado y alto.
 
 Esto demuestra que la carga mental influye en la activación del sistema nervioso simpático.
+
+<img width="1600" height="800" alt="image" src="https://github.com/user-attachments/assets/68487fb2-d5a7-4f97-80b6-3115d9b1a8ec" />
 
 4. Análisis de Resultados
 
